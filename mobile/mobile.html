@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html style="font-size: 10px;">
+<head>
+    <title>RedCenter</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="mobile.css">
+</head>
+
+<body>
+<div id="container">
+    <div id="head">RedCenter</div>
+    <div id="introduce">
+        <div id="introduceDiv">
+            <div id="photo">
+                <img src="图层 6.png">
+            </div>
+            <div id="detailIntroduce">
+                <h2 id="name">刘金莉</h2>
+                <p id="number">2013213369</p>
+                <div id="rank">
+                    <p id="now">当前等级：</p>
+                    <div id="level">VIP 1</div>
+                </div>
+            </div>
+            <div id="change">修改资料</div>
+        </div>
+        
+    </div>
+    <div class="gradesAndRank">
+        <div class="gradesAndRankDiv">
+            <div class="grades">
+                <p class="left">当月积分：</p>
+                <p class="right">1250分</p>
+            </div>
+            <div class="vertical"></div>
+            <div class="ranking">
+                <p class="left">当月排名：</p>
+                <p class="right">1250分</p>
+            </div>
+        </div>
+    </div>
+    <div class="gradesAndRank">
+        <div class="gradesAndRankDiv">
+            <div class="grades">
+                <p class="left">年度积分：</p>
+                <p class="right">1250分</p>
+            </div>
+            <div class="vertical"></div>
+            <div class="ranking">
+                <p class="left">年度排名：</p>
+                <p class="right">1250分</p>
+            </div>
+        </div>
+    </div>
+    <div id="gradesChangeDetail">
+        积分兑换规则详情
+    </div>
+    <div id="detailGrades">
+        <div class="choice">
+            <div class="wechatDiv">
+                <i class="iconfont wechat">&#x3433;</i>
+            </div>
+            
+            <div class="productDiv">
+                <h2 class="product">重邮小帮手微信端</h2>
+                <p class="choiceGrades">530分</p>
+            </div>
+            
+        </div>
+        <div class="line"></div>
+        <div class="choice">
+            <div class="wechatDiv">
+                <i class="iconfont wechat">&#x3433;</i>
+            </div>
+            <div class="productDiv">
+                <h2 class="product">BT down铺</h2>
+                <p class="choiceGrades">230分</p>
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="choice">
+            <div id="image">
+                <img src="拾.png">
+            </div>
+            <div class="productDiv">
+                <h2 class="product">拾货</h2>
+                <p class="choiceGrades">490分</p>
+            </div>
+            
+        </div>
+    </div>
+    <div class="leaderboardsDiv">
+        <div class="leaderboards">
+            <div class="leaderDiv">
+                <i class="iconfont leader">&#xe634;</i>
+            </div>
+                
+            <h2 class="product">积分排行榜</h2>
+        </div>
+        <div class="anotherLine"></div>
+        <div class="leaderboards">
+            <div class="leaderDiv">
+                <p class="rankingNumber">1</p>
+            </div>
+            
+            <p class="rankingName">没哟机会背景</p>
+            <p class="rankingGrades">19850分</p>
+        </div>
+        <div class="anotherLine"></div>
+        <div class="leaderboards">
+            <div class="leaderDiv">
+                <p class="rankingNumber">2</p>
+            </div>
+            <p class="rankingName">没哟机会背景</p>
+            <p class="rankingGrades">10000分</p>
+        </div>
+        <div class="anotherLine"></div>
+        <div class="leaderboards">
+            <div class="leaderDiv">
+                <p class="rankingNumber">3</p>
+            </div>
+            <p class="rankingName">没哟机会背景</p>
+            <p class="rankingGrades">9850分</p>
+        </div>
+    </div>
+    
+</div>
+</body>
+<script type="text/javascript">
+    var a = window.screen.width,
+        fontcss = a*25/256;
+        
+    function change (fontcss) {
+        document.getElementsByTagName('html')[0].style.fontSize = fontcss + '%';
+    }
+    change (fontcss);
+</script>
+</html>
